@@ -1,8 +1,8 @@
 [Unit]
-Description=Restic Backup Timer
+Description=ZFS Pool Scrub Timer
 
 [Timer]
-OnCalendar=daily
+OnCalendar=monthly
 RandomizedDelaySec=3600
 Persistent=true
 
